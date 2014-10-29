@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+
+# Specify your gem's dependencies in Question-simple_expec.gemspec
+gemspec
