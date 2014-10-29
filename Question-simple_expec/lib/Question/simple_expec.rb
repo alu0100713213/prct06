@@ -1,7 +1,7 @@
-require "Question/simple_expec/version"
+require 'Question/base'
 
 module Question
-  module SimpleExpec
+  class SimpleExpec
     # Your code goes here...
   end
 end
