@@ -1,4 +1,5 @@
 require 'Question/simple_expec'
+require "lib/base.rb"
 
 describe Exam do
 
