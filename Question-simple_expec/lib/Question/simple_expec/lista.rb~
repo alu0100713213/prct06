@@ -15,7 +15,7 @@ class Lista
 
 	def push(val)
 		aux = @head
-		while (aux.next != nil) do
+		while (aux.next !nil) do
 			aux = aux.next
 		end
 		aux.next = Node.new(val,nil)
