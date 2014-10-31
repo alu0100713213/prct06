@@ -1,6 +1,8 @@
+# encoding: utf-8
+
 require 'Question/simple_expec'
 
-describe Exam do
+describe Question::SimpleExpec  do
 
 	before :each do 
 		@nodo1 = Node.new(4,nil)
@@ -70,7 +72,7 @@ describe Exam do
  			@NP2 = SimpleSelection.new(@p2,@opP2)
  			@NP3 = SimpleSelection.new(@p3,@opP3)
  			@NP4 = SimpleSelection.new(@p4,@opP4)
- 			@NP5 = SimpleSelection.new(@p5,@opP5)
+  			@NP5 = SimpleSelection.new(@p5,@opP5)
 
  			Examen = Lista.new(@NP1)
  			Examen.push(@NP2)
